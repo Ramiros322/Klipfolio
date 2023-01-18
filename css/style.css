@@ -10,35 +10,23 @@
   font-weight: 400;
 }
 
-.SWD {
-  font-size: 86px;
-  font-weight: 800;
-  width: 485px;
-  height: 212px;
-  line-height: 105.6px;
-  color: rgba(33, 38, 79, 1);
-}
-
-.Power_Metrics {
-  font-size: 32px;
-  width: 445px;
-  height: 154px;
-  line-height: 38.4px;
-  color: rgba(33, 38, 79, 1);
-}
-
-.buttons {
+.get_button {
   background: #21264F;
   color: #fff;
   padding: 10px;
   border-radius: 32px;
   width: 247px;
   height: 48px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;  
 }
+
 body {
   font-family: 'OpenSans';
-  line-height: 27px;
+  line-height: 38px;
   font-weight: 400;
+  font-size: 32px;
   padding: 0;
   margin: 0;
 }
@@ -53,4 +41,57 @@ body {
 .header-nav a {
   text-decoration: none;
   color: 333333;
+}
+
+.additional_button {
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 27px;
+  color: #21264F;
+}
+
+.heading_blue {
+  font-size: 65px;
+  font-weight: 800;
+  width: 700px;
+  height: 350px;
+  line-height: 106px;
+  letter-spacing: 2px;
+  color: rgba(33, 38, 79, 1);
+}
+
+.heading_white {
+  font-weight: 800;
+  font-size: 65px;
+  width: 700px;
+  height: 350px;
+  line-height: 82px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.footer_list_hor {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer_list_element {
+  list-style-type: none;
+}
+.footer_list_element  a, .footer_list_hor a {
+  text-decoration: none;
+}
+
+.blue_text {
+  color: #21264F;
+}
+
+.white_text {
+  color: #9a9a9a;
 }
