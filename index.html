@@ -7,38 +7,53 @@
   </head>
   <body>
     <header>
-      <ul class="header-nav">
-        <li>
-          <a href="#">
-            <img src="/img/Logo.svg" width="100" height="32">
-          </a>
-        </li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Integrations</a></li>
-        <li><a href="#">Client Reporting</a></li>
-        <li><a href="#">Learn</a></li>
-        <li><a href="#">We're Hiring</a></li>
-        <li><a href="#">Log In</a></li>
-        <li><a href="#" class="get_button">Get Started Free</a></li>
-      </ul>
+      <div class="header-container">
+        <ul class="header-nav-left">
+          <li>
+            <a href="#">
+              <img src="/img/Logo.svg" width="100" height="32" class="header-logo">
+            </a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+            <img src="/img/d_arrow.svg" width="9" height="7">
+          </li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Integrations</a></li>
+          <li>
+            <a href="#">Client Reporting</a>
+            <img src="/img/d_arrow.svg" width="9" height="7">
+          </li>
+          <li>
+            <a href="#">Learn</a>
+            <img src="/img/d_arrow.svg" width="9" height="7">
+          </li>
+          <li><a href="#">We're Hiring</a></li>
+        </ul>
+        <ul class="header-nav-right">
+          <li><a href="#" class="header_additional_button">Log In</a></li>
+          <li><a href="#" class="header_get_button">Get Started Free</a></li>
+        </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Klipfolio main page</h1>
+      <section class="section1">
+        <h1 hidden>Klipfolio main page</h1>
         <div>
-          <p class="heading_blue">Succeed with data</p>
-          <p class="blue_text">PowerMetrics is a lightweight BI tool that helps you explore and share the right insights at the right time.</p>
-          <a class="get_button">Get PowerMetrics Free</a>
-          <a href="#" class="additional_button">Request a Demo</a>
+          <p class="heading_blue_first">Succeed with data</p>
+          <p class="blue_text_first">PowerMetrics is a lightweight BI tool that helps you explore and share the right insights at&nbsp;the right time.</p>
+          <ul class="two_buttons_in_section1">
+            <li><a class="body_get_button">Get PowerMetrics Free</a></li>
+            <li><a href="#" class="body_additional_button">Request a Demo</a></li>
+          </ul>
         </div>
-        <img src="\img\Rectangle_With_Man.jpg">
+        <img src="\img\Rectangle_With_Man.jpg" width="701" height="713">
       </section>
-      <section>
-        <h2>Block1</h2>
-        <div>
-          <p class="heading_white">Add “I can do anything with data” to your vocabulary</p>
-          <p class="white_text">Inspire confidence in your decision-making with accessible analytics for leaders and teams.</p>
+      <section class="section2">
+        <h2 hidden>Block1</h2>
+        <div class="blue_rec_section2">
+          <p class="heading_white_first">Add “I can do anything with data” to your vocabulary</p>
+          <p class="white_text_first">Inspire confidence in your decision-making with accessible analytics for leaders and teams.</p>
         </div>
         <img src="/img/Diagram.png">
       </section>
