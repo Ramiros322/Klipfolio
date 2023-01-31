@@ -17,32 +17,26 @@ html {
   box-sizing: border-box;
 }
 
-.header_get_button {
+.get_button {
   background: #21264F;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  width: 169px;
-  height: 40px;
   font-weight: 800;
   font-size: 16px;
   line-height: 16px;
 }
 
+.header_get_button {
+  width: 169px;
+  height: 40px;
+}
+
 .body_get_button {
-  background: #21264F;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 32px;
   width: 247px;
   height: 48px;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 16px;
 }
 
 body {
@@ -57,22 +51,23 @@ body {
 header {
   margin-bottom: 64px;
 }
+
 .header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0;
+  height: 60px;
+  font-size: 13px;
 }
+
 .header-nav-left {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 13px;
   line-height: 22px;
   margin: 0;
   padding: 0;
-  height: 60px;
 }
 
 .header-nav-left li {
@@ -84,7 +79,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 13px;
   line-height: 22px;
   margin: 0;
   padding: 0;
@@ -102,6 +96,7 @@ header {
 
 .header-logo {
   padding-top: 14px;
+  padding-left: 15px;
 }
 
 .header_additional_button {
@@ -121,8 +116,6 @@ header {
 }
 
 .heading_blue_first {
-  width: 485px;
-  height: 212px;
   font-size: 86px;
   font-weight: 800;
   line-height: 106px;
@@ -133,9 +126,7 @@ header {
 
 .heading_white_first {
   font-weight: 800;
-  font-size: 65px;
-  width: 771px;
-  height: 245px;
+  font-size: 66px;
   line-height: 82px;
   letter-spacing: 2px;
   color: #FFFFFF;
@@ -147,21 +138,42 @@ header {
 }
 
 .section2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.blue_rec_section2 {
+  position: relative;
   background: #303881;
   color: #fff;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 24px;
   width: 1200px;
   height: 940px;
   font-weight: 800;
+}
+
+.div1_section2 { /*Сделал отдельные классы, так как метод .section2 div:first-child не сработал*/
+  width: 800px; 
+  height: 373px;
+  position: relative;
+  left: 250px;
+  right: 250px;
+  top: 60px;
+}
+
+.div2_section2 {
+  width: 639px;
+  height: 116px;
+  position: relative;
+  left: 266px;
+  right: 295px;
+  top: 17px;
+}
+
+.section2 img {
+  position: relative;
+  left: 40px;
+  right: 40px;
+  top: 65px;
+  bottom: auto;
+  align-items: center;
 }
 
 .section1 div {
@@ -186,20 +198,14 @@ header {
 
 .blue_text_first {
   color: #21264F;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
   margin-bottom: 48px;
-  margin-right: 0;
 }
 
 .white_text_first {
+  position: relative;
   color: #FFFFFF;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
   margin-bottom: 48px;
-  margin-right: 0;
 }
 
 .two_buttons_in_section1 {
@@ -219,7 +225,6 @@ header {
 .two_buttons_in_section1 li {
   padding-right: 17px;
 }
-
 
 .white_text {
   color: #9a9a9a;
